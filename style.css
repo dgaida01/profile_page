@@ -1,0 +1,272 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: cursive;
+    
+}
+
+
+/* utility classes */
+.flexed{
+    display:flex; 
+    justify-content: space-between;
+    /* align-content: space-between; */
+    
+    
+}
+
+.flexed-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.avitar-big{
+    height: 50px;
+    align-self:flex-end;
+    position:relative;
+    bottom:-20px ;
+    left:20px;
+    border-radius: 50%;
+}
+.avitar-small{
+    height: 30px;
+    border-radius: 50%;
+}
+
+.icons{
+    height: 12px;
+    margin-right:5px;
+    align-self: center;
+}
+
+.conbutton{
+    height:20px;
+ border-radius: 50%;
+
+}
+.container{
+    /* min-height: 100px; */
+    max-width: 700px;
+    margin: 0 auto;
+ 
+    
+}
+
+/* ===================================================== */
+/* Header and top navication rules */
+
+.navcontainer{
+    background-color: black;
+    min-height: 40px;
+    
+}
+.navbar{
+    color:white;
+    align-items: center;
+    justify-content:center;
+    padding:10px;
+    list-style-type: none;
+}
+
+.jumplink{
+    margin-right:1.5rem;
+    font-size: 10pt;
+    
+}
+.exit{
+    margin-left: 5rem;    
+}
+.exit button{
+       
+    background-color:#17a2b8;
+    color: white;
+    width:100px;
+}
+h2{
+    font-weight:300;
+}
+
+
+/* ================================================= */
+
+/* Main content rules */
+
+main{
+    background-color: white;
+    min-height: 400px;
+    flex:1;
+    flex-direction: column;
+    padding: 20px 30px 20px 60px;
+}
+
+.buscard{
+    background-color: white;
+    border: 2px solid gray;
+    flex:2;
+    margin-bottom:20px; 
+}
+
+
+.card-content{
+justify-content: flex-start;
+/* min-height: 100%; */
+flex:1;
+padding-left:20px;
+}
+
+.ed-info{
+    background-color: white;
+    border: 2px solid gray;
+    flex:1;
+}
+
+.buscard header{
+    background-color: #17a2b8;
+    min-height: 50px;
+}
+
+/* main left side sub element adjustments */
+.cname{
+    font-size:20pt;
+    font-weight: 300;
+    margin-top: 30px;
+    
+}
+.clocation{
+    font-size: 11pt;
+    margin-bottom: 10px;
+    margin-top:5px;
+    justify-content: flex-start;
+    align-content: center;
+}
+.ctitles{
+    font-size:8pt;
+    font-weight: bold;
+    word-spacing: .05pt;
+    margin-bottom:0;
+}
+.cfoot{
+    font-size: 9pt;
+    margin-top:10px;
+    justify-content: flex-start;
+    align-content: center;
+    margin-bottom:10px;
+    text-decoration: underline;
+    color:#2e78e0;
+}
+/*  Education Box rules*/
+
+.ed-info header{
+    background-color: black;
+    color:white;
+    padding-left:20px;
+    font-size: 10pt;
+    min-height: 30px;
+    align-content: flex-start;         
+}
+
+.ed-association{
+    font-size: 13;
+    font-weight: 500;
+}
+.ed-dates{
+    font-size: 10pt;
+    color:rgb(109, 106, 106);
+    font-weight: bold;
+
+}
+.ed-details{
+    font-size:10pt;
+}
+
+.ed-info .card-content{
+   justify-content: space-evenly;
+}
+
+
+
+/* ================================================= */
+/* right side seconday content rules */
+aside{
+    background-color: white;
+    min-height: 400px;
+    flex:1;
+    flex-direction: column;
+    /* padding:20px 40px 25px 10px; */
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+
+aside header{
+
+    font-size: 8pt;
+    color:white;
+}
+
+.con-request{
+    border:2px solid gray;
+    background-color: white;
+    flex:1;
+    margin-bottom: 20px;
+}
+
+
+.yur-cons{
+    background-color: white;
+    border:2px solid gray; 
+    
+    flex:2;
+}
+
+.contacts{
+    justify-content: flex-start;
+    
+     }
+.yur-cons header,
+.con-request header{
+    background-color: black;
+    color:white;
+    font-size: 10pt;
+    min-height: 30px;
+    justify-content: flex-start;
+    align-content: space-around;
+    padding-top:5px;
+    padding-left: 5px;
+}
+.yur-cons header img,
+.con-request header img{
+    height:15px;
+    align-self: center;
+    margin-right: 10px;
+}
+
+.yur-cons .req-foot,
+.contacts{
+    padding-left:15px;
+}
+.con-request>div{
+    padding-left:20px;
+    padding-right:20px;
+}
+.conbutton{
+    margin-right:10px;
+}
+ 
+.avitar-small{
+    margin-right:15px;
+}
+
+.req-foot{
+    color:#17a2b8;
+    font-size: 10pt;
+    text-decoration: underline;
+    border-top: 2px solid grey;
+}
+
